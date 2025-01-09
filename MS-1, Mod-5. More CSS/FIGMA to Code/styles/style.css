@@ -19,7 +19,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-
 }
 
 #hero .hero-content {
@@ -80,4 +79,84 @@ button {
 
   background: rgb(82, 195, 3);
   border: none;
+}
+
+#favoritebrands {
+  width: 1000px;
+  margin: 100px auto;
+}
+
+#favoritebrands .card-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 25px;
+}
+#favoritebrands .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#favoritebrands .btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#favoritebrands .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+#favoritebrands .card-box {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#favoritebrands .card-box .image-box {
+  width: 320px;
+}
+
+#favoritebrands .card-box .image-box img {
+  width: 320px;
+}
+
+#favoritebrands .card-box .shop {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  padding: 14px 32px 14px 32px;
+
+  background: rgba(82, 195, 3, 0.15);
+}
+
+#outro .container {
+  display: flex;
+}
+
+#outro .outro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
